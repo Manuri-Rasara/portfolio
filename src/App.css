@@ -1,0 +1,12 @@
+/* Initially hide main content */
+.hide-content {
+    display: none;
+  }
+  
+  /* Display main content after loading is complete */
+  .show-content {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  

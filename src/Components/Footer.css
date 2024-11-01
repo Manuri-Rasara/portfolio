@@ -1,0 +1,53 @@
+.footerlinks{
+    display: flex;
+}
+.footerlinks{
+    list-style: none;
+    margin-right: 7%;
+   
+}
+.footerlinks li {
+    padding: 7px;
+}
+
+.lastfooter{
+    margin-left: 7%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.footerlinks li a {
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+    font-family: 1rem;
+}
+
+.footercopy{
+    color: rgb(77, 75, 75);
+    font-family: 1rem;
+}
+@media (max-width: 600px) {
+    .lastfooter {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .footerlinks {
+        flex-direction: row; /* Stack links vertically */
+        align-items: center;
+        margin: 10px 0 0;
+    }
+
+    .footerlinks li {
+        padding: 5px 10px; /* Reduce padding between links */
+    }
+
+    .footercopy {
+        margin-bottom: 10px; /* Add spacing below the copyright */
+        font-size: 0.9rem;
+    }
+}

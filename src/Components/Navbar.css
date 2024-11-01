@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'PP Mori', sans-serif;
+}
+
+.header{
+   
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 28px 8%;
+    transition: all .50s ease;
+}
+.logoname{
+    display: flex;
+    align-items: center;
+    cursor: url('../Assets//pointer.png'),auto;
+    
+}
+
+.logoname span {
+    color: black;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 1.1rem;
+    padding:5px 0px;
+    margin: 0px 30px;
+    transition: all .50s ease;
+    color: black;
+    font-weight: 400;
+    cursor: url('../Assets//pointer.png'),auto;
+}
+.logoname{
+    font-weight: 300;
+}
+.main{
+    display: none;
+}
+
+.smallscreenmenu{
+   border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    align-items: center;
+    padding-top: 40%;
+    cursor: pointer;
+    
+   
+}
+.navbar li {
+    position: relative;
+}
+
+.nav-dot{
+    position: absolute;
+    top: 27px;
+    right: 48px;
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: all 0.50s ease-in-out;
+}
+
+.contact-nav-dot{
+    right: 64px;
+}
+
+.navbar li  a:hover ~ .nav-dot {
+    background-color: black;
+}
+.close{
+    border: none;
+     background-color: transparent;
+     font-size: 1.5rem;
+     align-items: center;
+     display: none;
+    
+     
+    
+ }
+
+
+
+
+
+
+
+
+@media(max-width:1280px)
+{
+    .header{
+        padding: 14px 5%;
+        transition: .2s;
+    }
+
+    .navbar a {
+        padding: 5px 0px;
+        margin: 0px 20px;
+    }
+}
+
+
+@media(max-width:768px)
+{
+    .main {
+        display: block;
+        transition: .2s;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 220px;
+        height: 29vh;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all 1s ease;
+        
+    }
+
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all 1s ease;
+        color: white;
+        font-weight: 300;
+        padding-top: 5px;
+    }
+
+    .navbar ul li a{
+        font-weight: 400;
+    }
+
+    .navbar.open{
+        right: 5%;
+    }
+
+    .nav-dot{
+        position: absolute;
+        top: 27px;
+        right: 48px;
+        width: 5px;
+        height: 5px;
+        background-color: transparent;
+        border-radius: 50%;
+        transition: all 0.50s ease-in-out;
+    }
+
+    .navbar li  a:hover ~ .nav-dot {
+        background-color: white;
+    }
+    
+}
+

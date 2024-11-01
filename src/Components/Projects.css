@@ -1,0 +1,151 @@
+.project-container {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: 7%;
+    margin-top: 7%;
+
+}
+
+.Pdot {
+    background: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px; /* Set the spacing to exactly 5px */
+    margin-bottom: 5px;
+   
+}
+
+.Ptitle strong {
+    margin: 0; /* Remove any unwanted extra margin */
+    font-size: 20PX;
+   
+}
+
+/* .card{
+    position: relative;
+    width:42%;
+    height: 450px;
+    background: #93367e;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    
+}
+
+.card .poster {
+    position: relative;
+}
+
+.card1 .poster img{
+   
+    margin-left: 175px;
+    width: 80%;
+}
+.poster img {
+    width: 100%;         
+    
+}
+
+
+.flexbox{
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.card1 .title{
+    color: #1c0c2c;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.card1 .used img{
+    width: 30px;
+    background-color:#1c0c2c;
+    border-radius: 5px;
+    margin-left: 460px;
+    margin-top: -10px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 10px;
+} */
+.flexbox{
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.card {
+    cursor: url('../Assets//pointer.png'),auto;
+    width: 350px;
+}
+.poster {
+    width: 410px;
+    height: 320px;
+    background-image: url('../Assets/projectone1.png');
+    position: relative;
+    display: flex;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:90%;
+    overflow: hidden;
+    border-radius: 34px;
+
+}
+
+
+
+.poster .title {
+    margin-left: 300px;
+    margin-top: 265px;
+    z-index: 10;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+}
+
+.poster .used img{
+    width: 20px;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 290px;
+    margin-left: 350px;
+   
+}
+
+.eye {
+    width: 348px;
+    height: 210px;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20; /* Make sure it's on top */
+    border: none;
+    font-size: 60px;
+    padding: 10px;
+    margin-top: -12px;
+    cursor: url('../Assets//pointer.png'),auto;
+    transition: opacity 0.4s ease; /* Smooth transition */
+}
+
+.poster:hover .eye {
+    opacity: 1; /* Fade in */
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+

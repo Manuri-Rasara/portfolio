@@ -1,0 +1,45 @@
+.contactcontent p{
+    font-family: 'PP Mori', sans-serif;
+  
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: .01rem;
+    font-weight: 50;
+    width: 95%;
+   
+
+}
+
+.contactcontent{
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.touch{
+    
+    margin-left: 0%;
+    margin-top: 4%;
+    
+    margin-bottom: 7%;
+    
+}
+
+.touch button{
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    width: 200px;
+    padding: 10px;
+    border-radius: 24px;
+    text-align: left;
+    padding-left: 30px;
+    cursor: url('../Assets//pointer.png'),auto;
+    
+}
+
+.touch button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+

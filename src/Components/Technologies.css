@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(54, 53, 53);
+    padding-bottom: 20px;
+}
+.tech {
+    justify-content: center;
+    background-color: #cec9c959;
+    border-radius: 24px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 70px;
+    margin-top: 7%;
+    cursor: url('../Assets//pointer.png'),auto;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.tech:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+}
+
+
+
+.tech img {
+    width: 100px;
+    padding: 10px;
+}
